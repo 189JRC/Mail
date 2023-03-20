@@ -1,0 +1,69 @@
+textarea {
+    min-height: 400px;
+}
+
+.list-group-item {
+  background: none;
+  border-color: white;
+}
+/*container for single email view*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 220px auto auto auto;
+    padding: 2px;
+    -ms-grid-column-align: start;
+  }
+/*container for sender field*/
+.grid-item-sender {
+    padding: 2px;
+    text-align: left;
+  }
+/*container for subject and content field*/
+.grid-item {
+    padding: 2px;
+    text-align: left;
+  }
+
+/*container for date field*/
+.grid-item-date {
+    padding: 2px;
+    text-align: right;
+    font-weight: lighter
+  }
+
+/*email list views for un/read*/
+
+.unread {
+    
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.read {
+    /*background-color: rgb(217, 224, 228);*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(208, 210, 213);
+    font-weight: lighter
+}
+
+.light {
+    font-weight: lighter
+}
+
+.butt {
+    margin: 5px;
+}
+
+.butt2 {
+    margin-left: 760px;
+}
+
+#send {
+  margin: 10px;
+}
+
+body {
+  background-image: url("./winter.jpg");
+}
